@@ -1,0 +1,9 @@
+const SearchTypes = {
+  RESET_SEARCH: 'RESET_SEARCH',
+
+  SEARCH: 'SEARCH',
+  SEARCH_FAILURE: 'SEARCH_FAILURE',
+  SEARCH_SUCCESS: 'SEARCH_SUCCESS',
+};
+
+export default SearchTypes;

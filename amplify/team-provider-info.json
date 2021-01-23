@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplify539e222f5e9e4-staging-150121-authRole",
+      "UnauthRoleArn": "arn:aws:iam::902582907134:role/amplify-amplify539e222f5e9e4-staging-150121-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::902582907134:role/amplify-amplify539e222f5e9e4-staging-150121-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amplify539e222f5e9e4-staging-150121-deployment",
+      "UnauthRoleName": "amplify-amplify539e222f5e9e4-staging-150121-unauthRole",
+      "StackName": "amplify-amplify539e222f5e9e4-staging-150121",
+      "StackId": "arn:aws:cloudformation:us-east-1:902582907134:stack/amplify-amplify539e222f5e9e4-staging-150121/6715adc0-3a2f-11eb-b209-1261ea05b3bf",
+      "AmplifyAppId": "d2ckx6o49ap91j"
+    },
+    "categories": {
+      "auth": {
+        "solelife9eccb575": {}
+      }
+    }
+  }
+}

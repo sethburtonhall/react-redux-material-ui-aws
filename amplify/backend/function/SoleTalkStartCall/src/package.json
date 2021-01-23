@@ -1,0 +1,23 @@
+{
+  "name": "SoleTalkChimeServer",
+  "version": "1.0.0",
+  "description": "A serverless backend for Soletalk Amazon Chime ",
+  "main": "index.js",
+  "dependencies": {
+    "amazon-chime-sdk-js": "^1.6.2",
+    "aws-sdk": "^2.682.0",
+    "aws-serverless-express": "^3.3.5",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "uuid": "^8.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

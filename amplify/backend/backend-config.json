@@ -1,0 +1,34 @@
+{
+  "function": {
+    "SoleTalkStartCall": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "dependsOn": []
+    }
+  },
+  "api": {
+    "SoleTalkStartCall": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "SoleTalkStartCall",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ]
+    }
+  },
+  "auth": {
+    "solelife9eccb575": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
